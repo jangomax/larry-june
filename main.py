@@ -35,7 +35,7 @@ def check():
     count = int(input("How many phrases do you want to generate?\n : "))
     print("")
     first = "Dont check me, bitch "
-    second = ["check that mileage","your interest rate","your engine light","the air quality"]
+    second = ["check that mileage","check your interest rate","check your engine light","check the air quality"]
     for i in range(count):
         out = first + str(random.choice(second))
         print(out)
